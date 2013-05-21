@@ -14,22 +14,32 @@ If the Ember.EXTEND\_PROTOTYPES flag has been set to false, the String prototype
 
 Currently implemented functions:
 
-	String.pluralize(plural) == String
+```
+String.pluralize(plural) == String
+```
 - renders a singular English language noun into its plural form
 - normal results can be overridden by passing in an alternative
 
-	String.singularize(singular) == String
+```
+String.singularize(singular) == String
+```
 - renders a plural English language noun into its singular form 
 - normal results can be overridden by passing in an alterative
 
-	String.humanize(lowFirstLetter) == String
+```
+String.humanize(lowFirstLetter) == String
+```
 - renders a lower case and underscored word into human readable form
 - defaults to making the first letter capitalized unless you pass true
 
-	String.titleize() == String
+```
+String.titleize() == String
+```
 - renders words into title casing (as for book titles)
 
-	String.tableize() == String
+```
+String.tableize() == String
+```
 - renders camel cased singular words into their underscored plural form
 
 Copyright (c) 2010 Ryan Schuft (ryan.schuft@gmail.com)
